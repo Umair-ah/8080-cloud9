@@ -13,9 +13,26 @@
  *= require_tree .
  *= require_self
  */
- 
- 
- 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.nav-tabs > li > a:hover {
+    color: white;
+    border-color: transparent;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+ .well{
+     color: black;
+ }
+.contact-head3{
+    color: black;
+}
 
 a{
     color: floralwhite;
@@ -34,12 +51,16 @@ a{
  h1{
     font-size: 50px;
     font-family: 'Open Sans';
-    color: antiquewhite;
+    color: white;
     padding-top: 36px;
     padding-bottom: 0px;
  }
  
- .container{
+ .about-us-color{
+    color: slategray;
+ }
+ 
+ .header{
     margin: 0px;
     background: #00B4DB;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
@@ -55,9 +76,17 @@ a{
     padding-bottom: 0px;
 }
 
-.conatiner{
-    padding: 12px;
+
+.heading_{
+    color: slategray;
 }
+
+.container{
+    margin: 0px;
+}
+
+  
+
 
 .home-callout{
     background: #00B4DB;  /* fallback for old browsers */
@@ -66,9 +95,6 @@ a{
 
 }
 
-.container .about-class{
-    padding-bottom: 31px;
-}
 
 a:hover {
     color: white;
