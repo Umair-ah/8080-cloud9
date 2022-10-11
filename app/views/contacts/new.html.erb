@@ -4,10 +4,10 @@
         
         
     <div class='col-md-5 col-md-offset-5'>
-            
+
       <div class='well'>
         
-        <%= form_for '/contact-us' do |f| %>
+        <%= form_for @contact do |f| %>
                         
           <div class='form-group'>
             <%= f.label :Name %>
@@ -15,13 +15,13 @@
           </div>
                     
           <div class='form-group'>
-              <%= f.label :Email %>
-              <%= f.text_field :Email, class:'form-control' %>
+            <%= f.label :Email %>
+            <%= f.text_field :Email, class:'form-control' %>
           </div>
                     
           <div class='form-group'>
-              <%= f.label :Comment %>
-              <%= f.text_area :Comments, class:'form-control' %>
+            <%= f.label :Comments %>
+            <%= f.text_area :Comments, class:'form-control' %>
           </div>
                         
           <div>
