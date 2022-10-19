@@ -15,9 +15,9 @@ $(document).on('turbolinks:load', function(){
     
   //Collect the credit card fields.
   var ccNum = $("#card_number").val(),
-      cvcNum = $("#card_code"),
-      expMonth = $("#card_month"),
-      expYear = $("#card_year");
+      cvcNum = $("#card_code").val(),
+      expMonth = $("#card_month").val(),
+      expYear = $("#card_year").val();
   
   //Send the card info to stripe.
   Stripe.createToken({
