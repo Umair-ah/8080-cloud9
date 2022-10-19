@@ -52,8 +52,6 @@ gem "sassc-rails"
 gem 'sass-rails', '6.0'
 
 # Use Bootstrap CSS
-
-
 gem 'bootstrap-sass', '3.4.1'
 
 # Use Devise for User Authentication
@@ -64,6 +62,13 @@ gem 'stripe'
 
 # Use Figaro for ENV Variables
 gem 'figaro'
+
+# Use turbolinks to make web apps faster
+gem 'turbolinks'
+
+# Use jquery as javascript library
+gem 'jquery-rails'
+
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
@@ -91,3 +96,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
