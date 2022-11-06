@@ -34,10 +34,18 @@
     color: white;
 }
 
-.alert-notice{
-    display: none;
-    
+.flash-container{
+    position: absolute;
+    width: 100%;
 }
+
+.alert-notice, .alert-alert{
+    text-align: center;
+    background-color: #ffffff14;
+    border-color: #ffffff12;
+    margin-top: 7px;
+}
+
  .well{
      color: black;
  }
@@ -110,3 +118,4 @@ a:hover {
 .home-signup-links{
     margin: 30px;
 }
+
