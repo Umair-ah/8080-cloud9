@@ -5,6 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
          
   belongs_to :plan
+  has_one :profile
   
   def save_with_subscription
     if valid?
