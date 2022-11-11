@@ -69,6 +69,9 @@ gem 'turbolinks'
 # Use jquery as javascript library
 gem 'jquery-rails'
 
+# Use to view tables in sql
+gem 'hirb'
+
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
