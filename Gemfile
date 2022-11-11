@@ -72,6 +72,8 @@ gem 'jquery-rails'
 # Use to view tables in sql
 gem 'hirb'
 
+# Use Paperclip for image uploads
+gem 'paperclip'
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
